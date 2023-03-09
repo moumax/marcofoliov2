@@ -7,7 +7,7 @@ import Typewriter from "typewriter-effect";
 
 const Welcome = () => {
   return (
-    <motion.div
+    <motion.h1
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ delay: 0.5 }}
@@ -37,7 +37,7 @@ const Welcome = () => {
           />
         </div>
       </div>
-    </motion.div>
+    </motion.h1>
   );
 };
 
