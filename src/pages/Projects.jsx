@@ -56,13 +56,13 @@ const Projects = () => {
                   <img
                     className={classImg}
                     src={data.imageLight || data.image}
-                    alt={data.imageLight}
+                    alt={data.alt}
                   />
                 ) : (
                   <img
                     className={classImg}
                     src={data.imageDark || data.image}
-                    alt={data.imageDark}
+                    alt={data.alt}
                   />
                 )}
               </a>

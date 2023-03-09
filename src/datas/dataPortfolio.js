@@ -10,6 +10,7 @@ const portfolioDatas = [
   {
     titre: "Lumios",
     image: lumios,
+    alt: "Lumios",
     lien: "https://github.com/WildCodeSchool/2022-03-JS-RemoteFR-TeamKarma-P3-Lumios",
     descriptionFR:
       "Aboutissement de ma formation, le projet professionel Lumios avait pour but d'apporter une solution à un porteur de projet en suivant un plan de charge. C'était pour nous l'occasion d'utiliser toutes nos connaissances acquises durant le bootcamp afin de pouvoir devenir développeur Full Stack.",
@@ -26,6 +27,7 @@ const portfolioDatas = [
     titre: "Marcofolio",
     imageLight: marcofolioDark,
     imageDark: marcofolioLight,
+    alt: "Marcofolio",
     lien: "https://github.com/WildCodeSchool/2022-03-JS-RemoteFR-TeamKarma-P3-Lumios",
     descriptionFR:
       "Aboutissement de ma formation, le projet professionel Lumios avait pour but d'apporter une solution à un porteur de projet en suivant un plan de charge. C'était pour nous l'occasion d'utiliser toutes nos connaissances acquises durant le bootcamp afin de pouvoir devenir développeurs Full Stack.",
@@ -38,6 +40,7 @@ const portfolioDatas = [
   {
     titre: "The wild post",
     image: post,
+    alt: "The wild post",
     lien: "https://clemdsc.github.io/",
     descriptionFR:
       "Premier project de ma formation à la Wild Code School, \"The wild post\" est une page statique en Html et Css. Il s'agissait de présenter nos premiers pas d'élèves à travers un journal",
@@ -50,6 +53,7 @@ const portfolioDatas = [
   {
     titre: "Movieflix",
     image: movieflix,
+    alt: "Movieflix",
     lien: "https://project-2-teamkarma-tigers.netlify.app/",
     descriptionFR:
       'Second projet, "MovieFlix" nous à permis de découvrir React, ainsi que l\'utilisation des Api à distance. La récupération des données nous à permis de créer quelques outils de requêtes.',
@@ -64,6 +68,7 @@ const portfolioDatas = [
   {
     titre: "Obsstjean",
     image: obsstjean,
+    alt: "obsstjean",
     lien: "https://obsstjean.fr/",
     descriptionFR:
       "L'association à laquelle j'appartient, l'observatoire astronomique de Saint Jean Le Blanc avait besoin d'un nouveau site web. Il y'a 3 ans, j'ai donc fait mes premiers pas en développement web! ",
