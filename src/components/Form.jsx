@@ -36,23 +36,33 @@ const Form = () => {
   const classTextareaLight =
     "rounded-md text-center text-sm xl:text-2xl bg-gray-600 bg-opacity-10 h-40 placeholder:text-black border-2 border-slate-400 placeholder-opacity-50 w-full xl:h-60";
 
+  const label = "hidden";
+
   return (
     <form
       className="relative flex flex-col text-xl font-bold w-[90vw] lg:w-[80vw] xl:w-[70vw] 2xl:w-[60vw] gap-y-6 items-center"
       onSubmit={handlesubmit}
     >
+      <label htmlFor="full-name" className={label}>
+        Name / nom
+      </label>
       <input
         className={mode === "light" ? classInputLight : classInputDark}
         type="text"
+        title="Your name / Votre nom"
         name="name"
         ref={input_name}
         id="full-name"
         placeholder={traduction[language].formName}
         required
       ></input>
+      <label htmlFor="full-name" className={label}>
+        Your email / Votre email
+      </label>
       <input
         className={mode === "light" ? classInputLight : classInputDark}
         type="email"
+        title="Your email / Votre email"
         id="email"
         name="email"
         ref={input_email}
@@ -60,9 +70,13 @@ const Form = () => {
         required
       ></input>
       <ValidationError prefix="Email" field="email" errors={state.errors} />
+      <label htmlFor="full-name" className={label}>
+        Your phone / Votre téléphone
+      </label>
       <input
         className={mode === "light" ? classInputLight : classInputDark}
         type="phone number"
+        title="Your phone / Votre téléphone"
         name="phone"
         id="phone"
         ref={input_phone}
@@ -70,9 +84,13 @@ const Form = () => {
         required
       ></input>
       <ValidationError prefix="Phone" field="phone" errors={state.errors} />
+      <label htmlFor="full-name" className={label}>
+        Your message / Votre message
+      </label>
       <textarea
         className={mode === "light" ? classTextareaLight : classTextareaDark}
         type="message"
+        title="Your message / Votre message"
         id="message"
         ref={input_message}
         name="message"
