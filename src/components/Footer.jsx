@@ -14,17 +14,33 @@ const Footer = () => {
 
       {mode == "dark" ? (
         <div className="flex gap-2 mt-5 mb-5">
-          <img className="w-8" src="../../javascript_bw.png" />
-          <img className="w-8" src="../../react_bw.png" />
-          <img className="w-8" src="../../tailwind_bw.png" />
-          <img className="w-8" src="../../git_bw.png" />
+          <img
+            className="w-8"
+            src="../../javascript_bw.png"
+            alt="Logo Javascript"
+          />
+          <img className="w-8" src="../../react_bw.png" alt="Logo ReactJs" />
+          <img
+            className="w-8"
+            src="../../tailwind_bw.png"
+            alt="Logo Tailwind"
+          />
+          <img className="w-8" src="../../git_bw.png" alt="Logo Github" />
         </div>
       ) : (
         <div className="flex gap-2 mt-5 mb-5">
-          <img className="w-8" src="../../javascript_color.png" />
-          <img className="w-8" src="../../react_color.png" />
-          <img className="w-8" src="../../tailwind_color.png" />
-          <img className="w-8" src="../../git_color.png" />
+          <img
+            className="w-8"
+            src="../../javascript_color.png"
+            alt="Logo Javascript"
+          />
+          <img className="w-8" src="../../react_color.png" alt="Logo ReactJs" />
+          <img
+            className="w-8"
+            src="../../tailwind_color.png"
+            alt="Logo Tailwind"
+          />
+          <img className="w-8" src="../../git_color.png" alt="Logo Github" />
         </div>
       )}
     </div>
