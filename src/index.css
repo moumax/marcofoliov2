@@ -8,12 +8,12 @@
 .carousel .control-next.control-arrow {
   display: flex;
   align-items: flex-end;
-  margin-bottom: 10px;
+  padding-bottom: 22px;
 }
 .carousel .control-prev.control-arrow {
   display: flex;
   align-items: flex-end;
-  margin-bottom: 10px;
+  padding-bottom: 22px;
 }
 
 .carousel .control-next.control-arrow:before {
@@ -34,4 +34,15 @@
   padding: 8px;
   transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
+}
+
+.carousel.carousel-slider .control-arrow {
+  background: grey;
+  opacity: 0.3;
+  height: 100%;
+}
+.carousel.carousel-slider .control-arrow:hover {
+  background: grey;
+  opacity: 0.3;
+  height: 100%;
 }
