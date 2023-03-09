@@ -56,7 +56,7 @@ const Form = () => {
         placeholder={traduction[language].formName}
         required
       ></input>
-      <label htmlFor="full-name" className={label}>
+      <label htmlFor="email" className={label}>
         Your email / Votre email
       </label>
       <input
@@ -70,7 +70,7 @@ const Form = () => {
         required
       ></input>
       <ValidationError prefix="Email" field="email" errors={state.errors} />
-      <label htmlFor="full-name" className={label}>
+      <label htmlFor="phone" className={label}>
         Your phone / Votre téléphone
       </label>
       <input
@@ -84,7 +84,7 @@ const Form = () => {
         required
       ></input>
       <ValidationError prefix="Phone" field="phone" errors={state.errors} />
-      <label htmlFor="full-name" className={label}>
+      <label htmlFor="message" className={label}>
         Your message / Votre message
       </label>
       <textarea
