@@ -5,7 +5,7 @@ const Footer = () => {
   const { mode } = useContext(ModeContext);
 
   return (
-    <div className="flex gap-5 items-center">
+    <footer className="flex gap-5 items-center">
       {mode == "dark" ? (
         <p className="text-xs">Marc LANTOL &#169; 2022</p>
       ) : (
@@ -43,7 +43,7 @@ const Footer = () => {
           <img className="w-8" src="../../git_color.png" alt="Logo Github" />
         </div>
       )}
-    </div>
+    </footer>
   );
 };
 
