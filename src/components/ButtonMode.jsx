@@ -46,6 +46,7 @@ const ButtonMode = () => {
         // animate={{ scale: 1.4 }}
         // transition={{ repeat: Infinity, repeatDelay: 1 }}
         type="button"
+        alt="light mode / dark mode"
         onClick={() => {
           mode == "light" ? switchMode("dark") : switchMode("light");
         }}
