@@ -15,13 +15,15 @@ const Softskill = ({ skill }) => {
         <img
           className="mx-auto xs:w-6 sm:w-16 md:w-16"
           src={skill.imageBw}
-          alt={skill.imageBw}
+          alt={skill.alt}
+          title={skill.title}
         />
       ) : (
         <img
           className="mx-auto xs:w-6 sm:w-16 md:w-16"
           src={skill.imageColor}
-          alt={skill.imageColor}
+          alt={skill.alt}
+          title={skill.title}
         />
       )}
     </div>
