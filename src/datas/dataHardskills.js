@@ -5,8 +5,6 @@ import html_bw from "../assets/hardskills/html_bw.png"
 import javascript_bw from "../assets/hardskills/javascript_bw.png"
 import node_bw from "../assets/hardskills/node_bw.png"
 import tailwind_bw from "../assets/hardskills/tailwind_bw.png"
-import vscode_bw from "../assets/hardskills/vscode_bw.png"
-import notion_bw from "../assets/hardskills/notion_bw.png"
 import react_bw from "../assets/hardskills/react_bw.png"
 
 import css_color from "../assets/hardskills/css_color.png"
@@ -16,8 +14,6 @@ import html_color from "../assets/hardskills/html_color.png"
 import javascript_color from "../assets/hardskills/javascript_color.png"
 import node_color from "../assets/hardskills/node_color.png"
 import tailwind_color from "../assets/hardskills/tailwind_color.png"
-import vscode_color from "../assets/hardskills/vscode_color.png"
-import notion_color from "../assets/hardskills/notion_color.png"
 import react_color from "../assets/hardskills/react_color.png"
 
 const dataHardSkills = [
@@ -69,12 +65,6 @@ const dataHardSkills = [
     imageColor: tailwind_color,
     texte: "Tailwind",
   },
-  // {
-  //   id:9,
-  //   imageBw: vscode_bw,
-  //   imageColor: vscode_color,
-  //   texte: "VsCode",
-  // },
 ];
 
 export default dataHardSkills;

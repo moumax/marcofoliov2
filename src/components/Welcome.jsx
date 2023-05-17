@@ -1,6 +1,3 @@
-import { LangContext } from "../context/LangContext.jsx";
-import { useContext } from "react";
-import { ModeContext } from "../context/ModeContext.jsx";
 import { motion } from "framer-motion";
 
 import Typewriter from "typewriter-effect";

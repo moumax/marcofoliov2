@@ -28,13 +28,13 @@ const Form = () => {
   };
 
   const classInputDark =
-    "rounded-md text-center text-sm xl:text-2xl bg-transparent placeholder-green-50 border-2 border-slate-800 placeholder-opacity-50 w-full h-10 xl:h-16";
+    "rounded-md text-center text-sm xl:text-2xl bg-white bg-opacity-10 placeholder-green-50 placeholder-opacity-50 w-full h-10 xl:h-16";
   const classInputLight =
-    "rounded-md text-center text-sm xl:text-2xl bg-gray-600 bg-opacity-10 placeholder:text-black border-2 border-slate-400 placeholder-opacity-50 w-full h-10 xl:h-16";
+    "rounded-md text-center text-sm xl:text-2xl bg-gray-600 bg-opacity-20 placeholder:text-black border-2 border-slate-400 placeholder-opacity-50 w-full h-10 xl:h-16";
   const classTextareaDark =
-    "rounded-md text-center text-sm xl:text-2xl bg-transparent h-40 placeholder-green-50 border-2 border-slate-800 placeholder-opacity-50 w-full xl:h-60";
+    "rounded-md text-center text-sm xl:text-2xl bg-white bg-opacity-10 h-40 placeholder-green-50 placeholder-opacity-50 w-full xl:h-60";
   const classTextareaLight =
-    "rounded-md text-center text-sm xl:text-2xl bg-gray-600 bg-opacity-10 h-40 placeholder:text-black border-2 border-slate-400 placeholder-opacity-50 w-full xl:h-60";
+    "rounded-md text-center text-sm xl:text-2xl bg-gray-600 bg-opacity-20 h-40 placeholder:text-black border-2 border-slate-400 placeholder-opacity-50 w-full xl:h-60";
 
   return (
     <form

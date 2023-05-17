@@ -47,7 +47,7 @@ const About = () => {
           <div className="z-0 xs:mt-36 xl:mt-48 flex flex-col">
             <div
               //Style for button switcher
-              className="relative flex w-40 h-8 sm:w-48 sm:h-12 self-end"
+              className="relative flex w-60 h-10 md:w-72 md:h-12 md:h lg:h-14 self-center "
             >
               {mode == "dark" ? (
                 <SwitchSelector
