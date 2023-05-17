@@ -24,3 +24,4 @@ This is my portfolio! It aims to show my work and my passion about web developme
 - [ ] Add github link ob each projects
 - [ ] Add my cv with a button to download him
 - [ ] Detect mode of visitor to display the good mode at first
+- [ ] Navbar to force 100vh on all components

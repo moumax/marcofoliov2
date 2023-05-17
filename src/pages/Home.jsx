@@ -13,6 +13,7 @@ import Footer from "../components/Footer.jsx";
 
 import Particles from "react-particles";
 import { loadFull } from "tsparticles";
+import Nav from "../components/Nav.jsx";
 
 function Home() {
   const { mode } = useContext(ModeContext);
@@ -183,6 +184,7 @@ function Home() {
       )}
 
       <LangContextProvider>
+        <Nav />
         <Welcome />
         <Code />
         <About />
