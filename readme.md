@@ -17,3 +17,8 @@ This is my portfolio! It aims to show my work and my passion about web developme
 - clone this repo
 - ```bash npm i ```
 - ```bash npm run start ```
+
+## Task list:
+- [ ] Add hobbies ond soft/hard section
+- [ ] Add github link ob each projects
+- [ ] Add my cv with a button to download him

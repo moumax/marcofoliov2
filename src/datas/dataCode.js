@@ -1,7 +1,7 @@
 const dataCode = {
   fr: {
     introduction: "   // Qui suis-je ?",
-    const_title: "moi",
+    const_title: "marco",
     name_title: "nom: ",
     role: "\"Développeur web full stack\"",
     status: "\"Cherche alternance ou temps plein\"",
@@ -9,9 +9,9 @@ const dataCode = {
   },
   en: {
     introduction: "   // Who am I ?",
-    const_title: "me",
+    const_title: "marco",
     name_title: "name: ",
-    role: "\"Full stack web developper\"",
+    role: "\"Full stack web developer\"",
     status: "\"Intership or fulltime job seeker\"",
     message: "\"Enjoy my website !\"",
   },
