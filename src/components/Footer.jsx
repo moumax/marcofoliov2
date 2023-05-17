@@ -7,9 +7,9 @@ const Footer = () => {
   return (
     <div className="flex gap-5 items-center">
       {mode == "dark" ? (
-        <p className="text-xs">Marc LANTOL &#169; 2022</p>
+        <p className="text-xs">Marc LANTOL &#169; 2023</p>
       ) : (
-        <p className="text-xs font-bold">Marc LANTOL &#169; 2022</p>
+        <p className="text-xs font-bold">Marc LANTOL &#169; 2023</p>
       )}
 
       {mode == "dark" ? (
