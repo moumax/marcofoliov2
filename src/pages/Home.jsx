@@ -188,12 +188,20 @@ function Home() {
 
       <LangContextProvider>
         <Nav />
-        <Welcome />
-        <Code />
-        <About />
-        <Projects />
+        <div className="h-[100vh]">
+          <Welcome />
+          <Code />
+        </div>
+        <div className="h-[100vh]">
+          <About />
+        </div>
+        <div className="h-[100vh]">
+          <Projects />
+        </div>
+        <div className="h-[100vh]">
         <Contact />
         <Footer />
+        </div>
         {/* Style for button mode & button lang */}
         <motion.div
           // style for box
