@@ -34,7 +34,7 @@ function Home() {
   }, []);
 
   return (
-    <div
+    <section
       className={mode == "light" ? classBackgroundLight : classBackgroundDark}
       id="home"
     >
@@ -209,7 +209,7 @@ function Home() {
           </div>
         </motion.div>
       </LangContextProvider>
-    </div>
+    </section>
   );
 }
 
