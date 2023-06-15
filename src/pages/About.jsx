@@ -42,6 +42,7 @@ const About = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 3}}
           className="relative flex w-screen items-center justify-center"
+          id="about"
         >
           {/* Style for container */}
           <div className="z-0 xs:mt-36 xl:mt-48 flex flex-col">

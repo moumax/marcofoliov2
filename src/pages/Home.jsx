@@ -28,12 +28,15 @@ function Home() {
   }, []);
 
   const particlesLoaded = useCallback(async (container) => {
-    await console.log("Ceci est un message caché !!             (ou pas...) :D");
+    await console.log(
+      "Ceci est un message caché !!             (ou pas...) :D"
+    );
   }, []);
 
   return (
     <div
       className={mode == "light" ? classBackgroundLight : classBackgroundDark}
+      id="home"
     >
       {mode == "dark" ? (
         <Particles

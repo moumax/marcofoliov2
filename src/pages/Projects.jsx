@@ -32,6 +32,7 @@ const Projects = () => {
       animate={{ opacity: 1 }}
       transition={{ delay: 0.2, duration: 2 }}
       className="relative flex flex-col w-[90vw] mb-20 z-0"
+      id="projects"
     >
       <div className="flex flex-col items-center">
         <Carousel
